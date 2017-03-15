@@ -1,1 +1,1 @@
-[Labs]() Labs Management Ruby on Rails App
+[Labs]() Labs Management Ruby on Rails Appgit init
