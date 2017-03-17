@@ -35,7 +35,7 @@ body, .navbar {
   border: none;
 }
 
-.home-callout, .about-callout {
+.home-callout, .about-callout, .contact-callout {
   color: white;
   font-size: 20px;
   margin-top: -20px;
@@ -65,6 +65,14 @@ body, .navbar {
     background-color: #00c6ff;
   }
   
+}
+.well{
+  color: #222222;
+  font-size: 15px;
+  margin-top: 40px;
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #E0EAFC , #CFDEF3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
