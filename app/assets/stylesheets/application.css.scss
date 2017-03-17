@@ -37,6 +37,7 @@ body, .navbar {
 
 .home-callout, .about-callout {
   color: white;
+  font-size: 20px;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -49,6 +50,21 @@ body, .navbar {
         opacity: 0.75;
         
     }
+}
+.navbar-brand, .nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+  
 }
 
 
