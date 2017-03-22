@@ -24,6 +24,10 @@
           <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
+          <div class="nav navbar-nav navbar-right">
+            <a href="/users/sign_in" class="btn btn-default navbar-btn">Connexion</a>
+            <a href="/users/sign_up" class="btn btn-default navbar-btn">S'Inscrire</a>
+          </div>
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "À propos de nous", about_path %></li>
             <li><%= link_to "Contactez-Nous", new_contact_path %></li>

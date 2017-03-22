@@ -1,7 +1,7 @@
 <div class="contact-callout container">
   <div class="row">
     <div class="col-md-4 col-md-offset-4">
-      <h2 class="text-center">Sign up</h2>
+      <h2 class="text-center">S'inscrire</h2>
       
       <div class="well">
       
@@ -14,15 +14,15 @@
           </div>
         
           <div class="field form-group">
-            <%= f.label :password %>
+            <%= f.label :mot_de_passe %>
             <% if @minimum_password_length %>
-            <em>(<%= @minimum_password_length %> characters minimum)</em>
+            <em>(<%= @minimum_password_length %> caractères minimum)</em>
             <% end %><br />
             <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
           </div>
         
           <div class="field form-group">
-            <%= f.label :password_confirmation %><br />
+            <%= f.label :Confirmation_de_mot_passe %><br />
             <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
           </div>
         
